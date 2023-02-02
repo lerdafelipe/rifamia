@@ -1,0 +1,34 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 80px;
+    width: 100%;
+  }
+  
+  .icon{
+    height: 90px;
+    width: auto;
+  }
+  .nav{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navItem{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--foreground-rgb);
+    font-family: "Roboto Mono", sans-serif;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+  }
+  
+  .navItem:nth-child(2){
+    background-color: #ff5757ac;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: rgb(var(--background-start-rgb));
+  }
