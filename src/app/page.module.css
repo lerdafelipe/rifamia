@@ -1,8 +1,83 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
   align-items: center;
-  padding: 6rem;
+  padding: 80px;
   min-height: 100vh;
+}
+
+.main{
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+.main h1{
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.main h4{
+  margin-top: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 900px;
+  color: #333;
+}
+
+.buttonSection{
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonSection a{
+  border-radius: 5px;
+  padding: 7px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 2px solid;
+}
+
+.buttonSection a:first-child{
+  background-color: #5271FF;
+  color: #ffffff;
+  border-color: #FF5757;
+}
+
+.buttonSection a:last-child{
+  color: #FF5757;
+  border-color: #FF5757;
+}
+
+.howCreateContainer h3{
+  color: #5271FF;
+  text-decoration: underline;
+  padding: 10px 0;
+}
+
+.howWork{
+  display: flex;
+  gap: 20px;
+}
+
+.div50{
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.howWork article{
+  text-align: start;
+  padding: 25px 0;
+}
+
+.howWork article h5{
+  color: #FF5757;
+  font-size: 22px;
+  padding: 7px 0;
+}
+
+.howWork article p{
+  line-height: 1.5rem;
 }

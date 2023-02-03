@@ -1,0 +1,79 @@
+.footerContainer{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 25px;
+}
+
+.footerEffect{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footerEffect span{
+    transform: rotate(45deg);
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.footerPolitics{
+    padding: 0 80px;
+    color: #5271FF;
+    text-decoration: underline;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+}
+
+.footerContainersFlex{
+    display: flex;
+    flex-direction: row;
+    padding: 0 80px;
+}
+
+.div33{
+    flex: 0 0 33%;
+    max-width: 33%;
+    padding: 10px 0 20px 0;
+}
+
+.div33:first-child,
+.div33:last-child{
+    display: flex;
+    align-items: center;
+}
+
+.copyright{
+    color: #5271FF;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.terms,
+.privacy{
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1.5rem;
+}
+
+.terms{
+    color: #FF5757;
+}
+
+.privacy{
+    color: #5271FF;
+}
+
+.div33:last-child{
+    justify-content: flex-end;
+}
