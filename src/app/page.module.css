@@ -5,9 +5,6 @@
   align-items: center;
   padding: 80px;
   min-height: 100vh;
-}
-
-.main{
   font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -41,18 +38,18 @@
 }
 
 .buttonSection a:first-child{
-  background-color: #5271FF;
+  background-color: var(--color-blue-primary);
   color: #ffffff;
-  border-color: #FF5757;
+  border-color: var(--color-pink-primary);
 }
 
 .buttonSection a:last-child{
-  color: #FF5757;
-  border-color: #FF5757;
+  color: var(--color-pink-primary);
+  border-color: var(--color-pink-primary);
 }
 
 .howCreateContainer h3{
-  color: #5271FF;
+  color: var(--color-blue-primary);
   text-decoration: underline;
   padding: 10px 0;
 }
@@ -73,7 +70,7 @@
 }
 
 .howWork article h5{
-  color: #FF5757;
+  color: var(--color-pink-primary);
   font-size: 22px;
   padding: 7px 0;
 }
