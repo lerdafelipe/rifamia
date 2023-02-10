@@ -78,3 +78,41 @@
 .howWork article p{
   line-height: 1.5rem;
 }
+
+@media screen and (max-width: 840px) {
+  .main{
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .howWork{
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+  .div50{
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .howWork article{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .buttonSection{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .main h1{
+    font-size: 25px;
+  }
+  .main h4{
+    font-size: 16px;
+  }
+  .div50 p,
+  .div50 img{
+    max-width: calc(100vw - 60px);
+  }
+}

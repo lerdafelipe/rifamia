@@ -32,3 +32,23 @@
     border-radius: 3px;
     color: rgb(var(--background-start-rgb));
   }
+
+  @media screen and (max-width: 840px) {
+    .header{
+      padding: 0 30px;
+    }
+    .navItem{
+      font-size: 16px;
+    }
+    .nav{
+      gap: 10px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .header{
+      padding: 0 15px;
+    }
+    .icon{
+      height: 60px;
+    }
+  }

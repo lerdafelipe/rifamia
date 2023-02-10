@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import { BsWhatsapp, BsInstagram } from 'react-icons/bs'
+import { GoMail } from 'react-icons/go'
 import React from 'react'
 import styles from './footer.module.css'
 
@@ -19,9 +21,9 @@ const Footer = () => {
             <Link className={styles.terms} href='/'>Términos y condiciones</Link>
           </div>
           <div className={styles.div33}>
-            <Link href='/'>Wpp</Link>
-            <Link href='/'>Ig</Link>
-            <Link href='/'>@</Link>
+            <Link href='/'><BsWhatsapp /></Link>
+            <Link href='/'><BsInstagram /></Link>
+            <Link href='/'><GoMail /></Link>
           </div>
         </div>
       </footer>

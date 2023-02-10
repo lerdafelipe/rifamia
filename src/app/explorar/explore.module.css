@@ -1,0 +1,49 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 80px;
+    font-family: 'Roboto Mono', sans-serif;
+  }
+.main h2{
+  text-align: start;
+  padding: 10px 0;
+  font-size: 20px;
+  color: var(--color-blue-primary);
+  text-decoration: underline;
+}
+.rifasSection{
+  width: 100%;
+  margin-bottom: 25px;
+}
+.rifasContainer{
+  display: flex;
+  gap: 15px;
+}
+.searchSection{
+  width: 100%;
+  padding: 15px 0 0 0;
+}
+.searchSection input{
+  padding: 8px;
+  border: 2px solid var(--color-pink-primary);
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 300px;
+  margin-right: 10px;
+  box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.2);
+  outline: none;
+}
+.searchSection button{
+  background-color: var(--color-blue-primary);
+  border: 2px solid var(--color-blue-primary);
+  cursor: pointer;
+  padding: 8px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFF;
+  border-radius: 3px;
+  box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.2);
+}

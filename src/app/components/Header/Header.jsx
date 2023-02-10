@@ -9,7 +9,7 @@ const Header = () => {
       <header className={styles.header}>
         <div>
           <Link href='/'>
-            <Image width={500} height={350} alt='logo' src='/rifamia-real.png' className={styles.icon} />
+            <Image priority width={500} height={350} alt='logo' src='/rifamia-real.png' className={styles.icon} />
           </Link>
         </div>
 

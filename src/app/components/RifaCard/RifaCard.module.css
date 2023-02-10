@@ -1,0 +1,53 @@
+.card{
+    box-shadow: 2px 2px 7px 2px rgba(0,0,0,0.2);
+    background-color: rgb(var(--background-start-rgb));
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card img{
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.2);
+}
+.cardDetails{
+    padding: 5px;
+    text-align: left;
+}
+.cardDetails h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.cardAwards{
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    color: var(--color-pink-primary);
+}
+.cardDetails ol{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 5px 5px 10px 25px;
+    width: calc(100% - 10px);
+}
+.cardDetails ol li{
+    font-size: 15px;
+}
+.cardRifaPrice{
+    text-align: right;
+    color: var(--color-blue-primary);
+}
+
+.cardRifaPrice svg{
+    font-size: 20px;
+    margin-bottom: -3px;
+}
+.cardInfoTicket{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardTicketsLeft{
+    font-size: 13px;
+    color: var(--color-blue-primary);
+}

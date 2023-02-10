@@ -76,4 +76,31 @@
 
 .div33:last-child{
     justify-content: flex-end;
+    gap: 15px;
+    font-size: 22px;
+    color: var(--color-blue-primary);
 }
+
+
+@media screen and (max-width: 840px) {
+    .footerContainersFlex,
+    .footerPolitics{
+      padding: 0 30px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .div33{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 5px;
+    }
+    .footerContainersFlex{
+        flex-direction: column;
+    }
+    .div33:first-child,
+    .div33:last-child{
+        align-items: center;
+        justify-content: center;
+    }
+  }
