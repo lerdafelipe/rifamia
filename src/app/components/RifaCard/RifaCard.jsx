@@ -2,12 +2,14 @@ import Image from 'next/image'
 import React from 'react'
 import image from './image-card.jpg'
 import styles from './RifaCard.module.css'
-import { HiTicket } from 'react-icons/hi'
+import { TicketIcon } from '@/svg/icons'
 
 const RifaCard = () => {
   return (
     <article className={styles.card}>
-      <Image width={300} height={100} alt='image-rifa' src={image} />
+      <div className={styles.cardImageContainer}>
+        <Image alt='image-rifa' src={image} />
+      </div>
       <div className={styles.cardDetails}>
         <h5>Rifa caballo</h5>
         <p className={styles.cardAwards}>Premios:</p>
@@ -17,7 +19,7 @@ const RifaCard = () => {
         </ol>
         <div className={styles.cardInfoTicket}>
           <p className={styles.cardTicketsLeft}>¡Quedan: 70 números!</p>
-          <p className={styles.cardRifaPrice}><HiTicket />$500</p>
+          <p className={styles.cardRifaPrice}><TicketIcon />$500</p>
         </div>
       </div>
     </article>

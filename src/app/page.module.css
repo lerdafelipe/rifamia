@@ -5,7 +5,7 @@
   align-items: center;
   padding: 80px;
   min-height: 100vh;
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: system-ui;
 }
 
 .main h1{
