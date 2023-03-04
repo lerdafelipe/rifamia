@@ -21,7 +21,7 @@
   display: grid;
   grid-auto-rows: auto;
   grid-template-columns: repeat(auto-fill, minmax(192px, 1fr));
-  gap: 25px;
+  gap: 15px;
 }
 .searchSection{
   width: 100%;

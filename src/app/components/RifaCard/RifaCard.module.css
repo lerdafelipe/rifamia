@@ -16,18 +16,20 @@
     height: auto;
 }
 .cardDetails{
-    padding: 5px;
     text-align: left;
 }
 .cardDetails h5{
+    padding: 5px;
     font-size: 18px;
     font-weight: 600;
+    text-transform: capitalize;
 }
 .cardAwards{
     font-weight: 600;
     font-size: 14px;
     margin: 0;
     color: var(--color-pink-primary);
+    padding: 0 5px;
 }
 .cardDetails ol{
     display: flex;
@@ -53,9 +55,23 @@
     flex-direction: row;
     width: 100%;
     align-items: center;
+    padding: 0 5px 5px 5px;
     justify-content: space-between;
 }
 .cardTicketsLeft{
     font-size: 13px;
     color: var(--color-blue-primary);
+}
+.goToMyRifaContainer{
+    width: 100%;
+}
+.goToMyRifa{
+    background-color: var(--color-blue-primary);
+    color: #FFF;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 500;
 }

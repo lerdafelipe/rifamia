@@ -1,0 +1,90 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 80px;
+    font-family: system-ui;
+}
+.main h1{
+    font-size: 30px;
+}
+.main h5{
+    font-weight: 500;
+    font-size: 14px;
+    color: #B00D0F;
+    text-decoration: underline;
+}
+.profileSection{
+    max-width: 600;
+
+}
+.profileSection form{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.inputsContainer{
+    border-radius: 5px;
+    border: 1px solid #00000050;
+    display: flex;
+    flex-direction: row;
+    color: #00000050;
+    align-items: center;
+    gap: 4px;
+    padding: 4px;
+}
+.inputsContainer label {
+    height: 100%;
+}
+.inputsContainer label svg{
+    height: 100%;
+}
+.inputsContainer input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 100%;
+    width: calc(100% - 18px);
+}
+.profileSection form button{
+    background-color: var(--color-blue-primary);
+    border: none;
+    padding: 8px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.divs50{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 30px;
+    }
+}
+@media (max-width: 400px) {
+    .main .profileSection h1 {
+        font-size: 24px;
+    }
+    .divs50{
+        flex-direction: column;
+        gap: 9px;
+    }
+}
+@media (max-width: 320px) {
+    .main .profileSection h1 {
+        font-size: 20px;
+    }
+    .main .profileSection h5 {
+        font-size: 12px;
+    }
+    
+}
