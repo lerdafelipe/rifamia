@@ -3,15 +3,16 @@ import React from 'react'
 import Banner from '../components/Banner/Banner'
 import RifaCard from '../components/RifaCard/RifaCard'
 import Styles from './user.module.css'
+import portada from './portadaProfile.png'
 
 const page = () => {
   const rifas = [1, 2, 3]
   return (
     <main className={Styles.main}>
       <section>
-        <Banner />
+        <Banner img={portada} />
         <aside className={Styles.infoUser}>
-          <h1>Rifa Caballo Tobiano</h1>
+          <h1>John Doe</h1>
           <div className={Styles.socialContainer}>
             <TwIcon />
             <IgIcon />
@@ -19,8 +20,8 @@ const page = () => {
             <WebIcon />
           </div>
           <div className={Styles.socialFormalContainer}>
-            <p><MailIcon /> lerdafelipe@gmail.com</p>
-            <p><PhoneIcon /> +54 3534 279005</p>
+            <p><MailIcon /> johndoe@gmail.com</p>
+            <p><PhoneIcon /> +54 123 456 7890</p>
           </div>
         </aside>
         <aside className={Styles.misRifasContainer}>
