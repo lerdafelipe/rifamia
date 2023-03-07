@@ -1,0 +1,32 @@
+.buttonSection{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+  
+.buttonSection a{
+    border-radius: 5px;
+    padding: 7px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid;
+  }
+  
+.buttonSection a:first-child{
+    background-color: var(--color-blue-primary);
+    color: #ffffff;
+    border-color: var(--color-pink-primary);
+}
+  
+.buttonSection a:last-child{
+    color: var(--color-pink-primary);
+    border-color: var(--color-pink-primary);
+}
+
+@media screen and (max-width: 540px) {
+    .buttonSection{
+      flex-direction: column;
+      gap: 20px;
+    }
+}

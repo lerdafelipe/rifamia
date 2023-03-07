@@ -11,24 +11,28 @@
 .mainContent aside h3{
     text-align: center;
 }
-.mainContent table{
-    width: 100%;
-    border-radius: 3px;
-    border: 1px solid #00000030;
-    margin: 10px 0;
+
+.linkToUser{
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    color: var(--color-blue-primary);
 }
-.mainContent table td{
-    border-bottom: 1px solid #00000030;
-    padding: 3px 5px;
+.linkToUser svg{
+      font-size: 14px;
+      margin-right: 4px;
+      margin-bottom: -2px;
 }
-.mainContent table tr:last-child td{
-    border-bottom: 0px;
-}
-.mainContent table tr td:first-child{
-    font-weight: 500;
-}
-.mainContent table td svg:last-child{
-    margin-left: -15px;
-    margin-bottom: -3px;
-    transform: rotate(45deg);
+
+@media (max-width: 550px) {
+    .mainContent{
+        padding: 10px;
+        border: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .mainContent aside{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }

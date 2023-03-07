@@ -2,6 +2,8 @@
     width: 100%;
     display: flex;
     place-content: center;
+    align-items: center;
+    flex-direction: column;
     font-family: system-ui;
     margin-bottom: 30px;
 }
@@ -59,17 +61,6 @@
     gap: 25px;
     padding: 15px;
 }
-.linkToUser{
-  text-align: center;
-  padding-bottom: 5px;
-  text-decoration: underline;
-  color: var(--color-blue-primary);
-}
-.linkToUser svg{
-    font-size: 14px;
-    margin-right: 4px;
-    margin-bottom: -2px;
-}
 .misRifasContainer h2 {
     padding: 15px 15px 0 15px;
     font-size: 22px;
@@ -102,4 +93,8 @@
 }
 .rifaDescriptionCont{
     text-align: justify;
+}
+.titleCrear{
+    color: var(--color-blue-primary);
+    margin-top: 15px;
 }

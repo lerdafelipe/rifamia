@@ -1,3 +1,56 @@
-.h1Cont{
+.rifaEndedContainer h1,
+.rifaEndedContainer h2{
     color: var(--color-pink-primary);
+    text-align: center;
+}
+.rifaEndedContainer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.rifaEndedContainer div h1{
+    margin-right: 4px;
+}
+.rifaEndedContainer div span{
+    color: var(--color-blue-primary);
+}
+.rifaEndedContainer aside{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.rifaEndedContainer aside p{
+    color: var(--color-blue-primary);
+    border: 2px solid var(--color-blue-primary);
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+.linkToUser{
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline;
+    color: var(--color-blue-primary);
+}
+.linkToUser svg{
+      font-size: 14px;
+      margin-right: 4px;
+      margin-bottom: -2px;
+}
+.tableWinners table{
+ border-radius: 5px;
+ border: 1px solid #00000030;
+ border-spacing: 0;
+ background-color: #ffffff;
+}
+.tableWinners table tr th{
+    text-decoration: underline;
+}
+.tableWinners table tr th,
+.tableWinners table tr td{
+    border: 1px solid #00000030;
+    padding: 5px 7px;
+    font-size: 14px;
 }

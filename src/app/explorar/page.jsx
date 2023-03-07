@@ -1,4 +1,5 @@
 import React from 'react'
+import LinksAccount from '../components/Links/LinksAccount'
 import RifaCard from '../components/RifaCard/RifaCard'
 import styles from './explore.module.css'
 
@@ -18,6 +19,8 @@ const page = () => {
           {rifas.map((rifa) => <RifaCard key={rifa} />)}
         </div>
       </section>
+      <h3 className={styles.titleCrear}>Puedes crear tus rifas</h3>
+      <LinksAccount />
     </main>
   )
 }

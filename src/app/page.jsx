@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import LinksAccount from './components/Links/LinksAccount'
 import styles from './page.module.css'
 
 export default function Home () {
@@ -7,10 +7,7 @@ export default function Home () {
     <main className={styles.main}>
       <h1>Sorteos fáciles, rápidos y transparentes</h1>
       <h4>Rifamia es una plataforma en la que podés armar tu rifa de una manera más estética, más cómoda, con resultados transparentes, integradas a un plataforma de pagos muy popular y confiable.</h4>
-      <div className={styles.buttonSection}>
-        <Link href='/registro'>Crear cuenta</Link>
-        <Link href='/login'>Ingresar a mi cuenta</Link>
-      </div>
+      <LinksAccount />
       <section className={styles.howCreateContainer}>
         <h3>¿Cómo Funciona Rifamia?</h3>
         <div className={styles.howWork}>

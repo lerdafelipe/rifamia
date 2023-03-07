@@ -1,0 +1,27 @@
+.tableInfo{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #00000030;
+    margin: 10px 0;
+}
+.tableInfo td{
+    border-bottom: 1px solid #00000030;
+    padding: 3px 5px;
+}
+.tableInfo tr:last-child td{
+    border-bottom: 0px;
+}
+.tableInfo tr td:first-child{
+    font-weight: 500;
+}
+.tableInfo tr td:last-child{
+    text-align: center;
+}
+.tableInfo tr:first-child td:last-child{
+    text-align: center;
+}
+.tableInfo td svg:last-child{
+    margin-left: -15px;
+    margin-bottom: -3px;
+    transform: rotate(45deg);
+}
