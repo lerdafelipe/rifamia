@@ -8,8 +8,8 @@ export default function Home () {
       <h1>Sorteos fáciles, rápidos y transparentes</h1>
       <h4>Rifamia es una plataforma en la que podés armar tu rifa de una manera más estética, más cómoda, con resultados transparentes, integradas a un plataforma de pagos muy popular y confiable.</h4>
       <div className={styles.buttonSection}>
-        <Link href='registro'>Crear cuenta</Link>
-        <Link href='login'>Ingresar a mi cuenta</Link>
+        <Link href='/registro'>Crear cuenta</Link>
+        <Link href='/login'>Ingresar a mi cuenta</Link>
       </div>
       <section className={styles.howCreateContainer}>
         <h3>¿Cómo Funciona Rifamia?</h3>

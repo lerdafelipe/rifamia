@@ -9,7 +9,7 @@ const RifaCard = () => {
   return (
     <article className={styles.card}>
       <div className={styles.cardImageContainer}>
-        <Image alt='image-rifa' src={image} />
+        <Link href='/rifa'><Image alt='image-rifa' src={image} /></Link>
       </div>
       <div className={styles.cardDetails}>
         <h5>Rifa caballo</h5>

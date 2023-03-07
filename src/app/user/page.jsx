@@ -25,7 +25,7 @@ const page = () => {
           </div>
         </aside>
         <aside className={Styles.misRifasContainer}>
-          <h2>Mis rifas</h2>
+          <h2>Rifas</h2>
           <div className={Styles.rifasContainer}>
             {rifas.map((rifa) => <RifaCard key={rifa} />)}
           </div>
