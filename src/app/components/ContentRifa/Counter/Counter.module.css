@@ -1,0 +1,31 @@
+.counterContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.counterContainer div{
+  display: flex;
+  flex-direction: row;
+  color: #00000080;
+  gap: 15px;
+}
+.counterContainer div span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-right: 2px solid #00000070;
+  padding-right: 15px;
+}
+.counterContainer div span:last-child{
+  border-right: 0px;
+  padding-right: 0px;
+}
+.counterContainer div span h4{
+  font-size: 30px;
+  font-weight: 400;
+}
+.counterContainer div span strong{
+  font-size: 12px;
+}

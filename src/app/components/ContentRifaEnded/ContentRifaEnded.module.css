@@ -47,6 +47,7 @@
 }
 .tableWinners table tr th{
     text-decoration: underline;
+    text-align: start;
 }
 .tableWinners table tr th,
 .tableWinners table tr td{

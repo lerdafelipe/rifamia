@@ -27,6 +27,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 10px;
 }
 .socialContainer svg:hover{
     color: var(--color-blue-primary);
@@ -39,6 +40,7 @@
     color: #00000080;
     padding: 10px 5px 0 5px;
     font-size: 14px;
+    margin-top: -10px;
 }
 .rifasContainer{
     display: grid;

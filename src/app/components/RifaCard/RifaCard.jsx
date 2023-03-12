@@ -8,23 +8,25 @@ import Link from 'next/link'
 const RifaCard = () => {
   return (
     <article className={styles.card}>
-      <div className={styles.cardImageContainer}>
-        <Link href='/rifa'><Image alt='image-rifa' src={image} /></Link>
-      </div>
-      <div className={styles.cardDetails}>
-        <h5>Rifa caballo</h5>
-        <p className={styles.cardAwards}>Premios:</p>
-        <ol>
-          <li>Caballo tobiano</li>
-          <li>Montura rígida</li>
-        </ol>
-        <div className={styles.cardInfoTicket}>
-          <p className={styles.cardTicketsLeft}>¡Quedan: 70 números!</p>
-          <p className={styles.cardRifaPrice}><TicketIcon />$500</p>
+      <Link href='/rifa'>
+        <div className={styles.cardImageContainer}>
+          <Image alt='image-rifa' src={image} />
         </div>
-        <div className={styles.goToMyRifaContainer}>
-          <Link className={styles.goToMyRifa} href='#'>Editar rifa</Link>
+        <div className={styles.cardDetails}>
+          <h5>Rifa caballo</h5>
+          <p className={styles.cardAwards}>Premios:</p>
+          <ol>
+            <li>Caballo tobiano</li>
+            <li>Montura rígida</li>
+          </ol>
+          <div className={styles.cardInfoTicket}>
+            <p className={styles.cardTicketsLeft}>¡Quedan: 70 números!</p>
+            <p className={styles.cardRifaPrice}><TicketIcon />$500</p>
+          </div>
         </div>
+      </Link>
+      <div className={styles.goToMyRifaContainer}>
+        <Link className={styles.goToMyRifa} href='#'>Editar rifa</Link>
       </div>
     </article>
   )

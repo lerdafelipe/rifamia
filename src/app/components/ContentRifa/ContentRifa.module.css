@@ -10,18 +10,26 @@
 }
 .mainContent aside h3{
     text-align: center;
+    color: var(--color-pink-primary);
 }
 
-.linkToUser{
+.linkToUser,
+.linkToUserMobile{
     text-align: center;
     padding-bottom: 5px;
     text-decoration: underline;
     color: var(--color-blue-primary);
 }
-.linkToUser svg{
+.linkToUser svg,
+.linkToUserMobile svg{
       font-size: 14px;
       margin-right: 4px;
       margin-bottom: -2px;
+}
+
+.linkToUserMobile{
+    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 550px) {
@@ -34,5 +42,13 @@
     .mainContent aside{
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .linkToUserMobile{
+        display: block;
+        visibility: visible;
+    }
+    .linkToUser{
+        display: none;
+        visibility: hidden; 
     }
 }

@@ -94,7 +94,15 @@
 .rifaDescriptionCont{
     text-align: justify;
 }
+.rifaDescriptionCont p{
+    padding: 15px;
+}
 .titleCrear{
     color: var(--color-blue-primary);
     margin-top: 15px;
+    text-align: center;
+}
+.titleCrearCont{
+    padding: 0 30px;
+    width: 100%;
 }
